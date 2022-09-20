@@ -1,0 +1,181 @@
+.tabs.tabs-transparent .tab a:hover
+{
+	background-color: #DB6B27;
+	border-radius: 10px;
+}
+
+h4
+{
+	text-align: center;
+   font-family: 'Montserrat-Regular';
+}
+
+body 
+{
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   font-family: 'Montserrat-Regular';
+   max-width: 100%;
+   background-color: #f5f5f5;
+}
+
+nav ul a:hover
+{
+   color: #DB6B27;
+}
+
+main
+{
+   flex: 1 0 auto;
+}
+
+section.titulo
+{
+   position: relative;
+   z-index: 2;
+   background-color: #f5f5f5;
+   padding: 0 20px;
+   margin-top: 40px;
+   margin-bottom: 10px;
+   font-family: 'Montserrat-Regular';
+
+}
+
+section.titulo::after
+{
+   content: "";
+   position: absolute;
+   z-index: 1;
+   top: 50%;
+   left: 40px;
+   border-top: 1px solid #333;
+   width: calc(100% - 80px);
+   font-family: 'Montserrat-Regular';
+
+}
+
+h1.titulo
+{
+   font-size: 28px;
+   color: #333;
+   text-align: center;
+   margin: 0 37%;
+   width: 26%;
+   position: relative;
+   z-index: 2;
+   background-color: #f5f5f5;
+   padding: 0;
+   margin-top: 15px;
+   font-family: 'Montserrat-Regular';
+}
+
+#conteudo
+{
+	width: 70%;
+	float: right;
+	text-align: center;
+}
+
+#menu
+{
+	width: 30%;
+	margin: 6% 65%;
+	padding: 0;
+   float: left;
+}
+
+#menu ul li 
+{
+	margin: 0; padding: 0px;
+	border-bottom: 1px solid #CCC;
+	text-align: left;
+	list-style-type: none;
+
+}
+    
+#menu a:link 
+{
+	background: black;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 8px;
+	display: block;
+	border-radius: 5px;
+}
+    
+#menu a:hover 
+{
+	background: #DB6B27;
+	color: white;
+}
+
+#BotoesMenu
+{
+   font-weight: bold;
+   color: #FFFFFF;
+}
+
+#BotoesMenu:hover
+{
+   font-weight: bold;
+   color: #DB6B27;
+}
+
+#BotoesMenuLC
+{
+   color: #FFFFFF;
+}
+
+#BotoesMenuLC:hover
+{
+   color: #DB6B27;
+}
+
+.select-wrapper input.select-dropdown:focus 
+{
+   border-bottom: 1px solid #DB6B27  ;
+}
+
+.waves-effect.waves-brown .waves-ripple
+{
+   background-color: #DB6B27;
+}
+
+#Esqueci
+{
+   color: #DB6B27;
+}
+
+#Esqueci:active
+{
+   color: #FFFFFF;
+}
+
+#BotaoLoginForm
+{
+   width: 165.02px;
+   height: 32.39px;
+   float: right;
+}
+
+#BotaoRecuperarForm
+{
+   width: 165.02px;
+   height: 32.39px;
+   float: center;
+}
+
+#BotaoPerfil
+{
+   float: right;
+}
+
+@font-face
+{
+   src: url(../Fonts/Montserrat-Regular.ttf);
+   font-family: 'Montserrat-Regular';
+   font-weight: normal;
+
+}
